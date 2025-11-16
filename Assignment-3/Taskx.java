@@ -11,7 +11,7 @@ class Applicant {
 
     @Override
     public String toString() {
-        return ("Name: " + name + "\nAddress: " + address + "\nGuardian: " + guardian);
+        return ("Name: " + name + "\nAddress:: " + address + "\nGuardian: " + guardian);
     }
 }
 
