@@ -27,7 +27,15 @@ class BMI {
 
 public class Task1 {
     public static void main(String[] args) {
-        BMI bmi = new BMI(70.0, 1.70);
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter your weight (kg): ");
+        double weight = input.nextDouble();
+
+        System.out.print("Enter your height (meter): ");
+        double height =  input.nextDouble();
+
+        BMI bmi = new BMI(weight, height);
         bmi.calculateBMI();
     }
 }
